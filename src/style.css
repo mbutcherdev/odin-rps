@@ -1,0 +1,88 @@
+body {
+  background-color: #7049e4;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #180f32;
+  font-size: 32px;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.selections {
+  display: flex;
+  justify-content: center;
+  color: #d5ccf0;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+h2 {
+  margin: 5px;
+}
+
+.picks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d5ccf0;
+  text-align: center;
+  font-size: 25px;
+  flex-wrap: wrap;
+}
+.first_selection {
+  width: 33%;
+  text-align: center;
+  color: #fff;
+  background-color: #180f32;
+}
+.second_selection {
+  width: 33%;
+  text-align: center;
+  color: #fff;
+  background-color: #180f32;
+}
+.third_selection {
+  width: 33%;
+  text-align: center;
+  color: #fff;
+  background-color: #180f32;
+}
+
+button {
+  background-color: #36333f;
+  color: #d2d057;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-size: 40px;
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+button:hover {
+  background-color: #266917;
+}
+
+.scores {
+  display: flex;
+  font-size: 22px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  background-color: #180f32;
+}
+.scores__player,
+.scores__ai,
+.results {
+  width: 33%;
+  text-align: center;
+  color: #fff;
+}

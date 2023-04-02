@@ -4,8 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="src/script.js"></script>
+    <script src="src/script.js" defer></script>
+    <link rel="stylesheet" href="src/style.css" />
     <title>Rock Paper Scissors | Odin Project</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Rock Paper Scissors</h1>
+    </header>
+    <div class="selections">
+      <p>
+        The AI overlords have picked you to play a game of Rock/Paper/Scissors
+        to decide the fate of the world
+        <br />
+        <br />
+        Make your choice wisely, we're counting on you!
+      </p>
+    </div>
+    <div class="picks">
+      <div class="first-selection">
+        <h2 class="first-selection__title">ROCK</h2>
+        <button id="selectRock">🪨</button>
+      </div>
+      <div class="second-selection">
+        <h2 class="second-selection__title">PAPER</h2>
+        <button id="selectPaper">📃</button>
+      </div>
+      <div class="third-selection">
+        <h2 class="third-selection__title">SCISSORS</h2>
+        <button id="selectScissors">✂️</button>
+      </div>
+    </div>
+    <div class="scores">
+      <div class="scores__player">
+        <h2 class="scores__player-title">Player</h2>
+        <p id="scores__player-score">0</p>
+      </div>
+      <div class="results">
+        <h2 class="results__title">Results</h2>
+        <p id="results__text">waiting...</p>
+        <p id="results-final"></p>
+      </div>
+      <div class="scores__ai">
+        <h2 class="scores__ai-title">AI</h2>
+        <p id="scores__ai-score">0</p>
+      </div>
+    </div>
+  </body>
 </html>
